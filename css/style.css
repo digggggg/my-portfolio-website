@@ -1,0 +1,49 @@
+:root {
+    --headerbg: rgb(68, 62, 62);
+    --colortext: aqua;
+}
+
+* {
+    color: var(--colortext);
+}
+
+header {
+    background-color: var(--headerbg);
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+li {
+    margin-right: 5px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aboutme {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+aside, section {
+    display: flex;
+    justify-content: left;
+}
+
+section, main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
