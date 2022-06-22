@@ -18,6 +18,8 @@ ul {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
+    font-size: 36px;
+    text-decoration: underline;
 }
 
 li {
@@ -28,8 +30,9 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: max-content;
+    height: auto;
     width: fit-content;
+    background-color: darkblue;
 }
 
 .aboutme {
@@ -38,6 +41,9 @@ aside {
     flex-direction: row;
     margin-left: 300px;
     max-width: 600px;
+    background-color: darkblue;
+    height: fit-content;
+    justify-content: flex-start;
 }
 
 h2 {
