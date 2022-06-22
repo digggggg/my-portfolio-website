@@ -27,20 +27,16 @@ li {
 }
 
 aside {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: auto;
-    width: fit-content;
+    text-align: center;
     background-color: darkblue;
+    padding: 50px;
 }
 
 .aboutme {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-left: 300px;
-    max-width: 600px;
+    max-width: 960px;
     background-color: darkblue;
     height: fit-content;
     justify-content: flex-start;
@@ -51,6 +47,29 @@ h2 {
 }
 
 footer {
+    text-align: center;
+    background-color: var(--headerbg);
+}
+
+.refactor {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
+}
+/*
+#contact {
+    margin-top: 500px;
+}
+*/
+ main {
+    display: flex;
+    flex-wrap: wrap;
 }
