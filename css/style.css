@@ -28,22 +28,23 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: max-content;
+    width: fit-content;
 }
 
 .aboutme {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    margin-left: 300px;
+    max-width: 600px;
 }
 
-aside, section {
+h2 {
+    margin-left: 50px;
+}
+
+footer {
     display: flex;
-    justify-content: left;
+    justify-content: center;
 }
-
-section, main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
