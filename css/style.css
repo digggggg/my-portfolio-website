@@ -73,3 +73,16 @@ footer {
     display: flex;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 992px) {
+    .refactor .form {
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .refactor .form{
+        width: 25%;
+    }
+}
