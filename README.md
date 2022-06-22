@@ -18,7 +18,7 @@ Git clone repository
 
 ## Usage 
 
-
+![portfolio website](https://i.imgur.com/cBWPlfZ.png)
 
 Git clone repository and then open the index.html file.
 
